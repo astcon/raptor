@@ -8,4 +8,4 @@ RUN	apt install -y rsync make
 ADD	RAPTOR-NkS /RAPTOR-NkS
 ENV	RAPTOR=/RAPTOR-NkS
 WORKDIR	/RAPTOR-NkS/SgrA-test
-RUN	bash setup.sh
+RUN	bash setup.sh -m=mks -c=bhac -r=pol -s=sfc
